@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "id.getrun/getrun",
   "title": "GetRun",
-  "description": "Generate images, video, audio and chat with 61 AI models from 16 providers through one connector. Pay per use from a Rupiah balance, no subscription; failed tasks are never charged.",
+  "description": "Image, video, audio and chat from 61 AI models through one connector. Pay per use, no subscription.",
   "version": "1.0.0",
   "websiteUrl": "https://getrun.id",
   "repository": {
@@ -13,7 +13,9 @@
     {
       "src": "https://getrun.id/logo-mark-gold.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     }
   ],
   "remotes": [
