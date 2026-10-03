@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "id.getrun/getrun",
   "title": "GetRun",
-  "description": "Image, video, audio and chat from 61 AI models through one connector. Pay per use, no subscription.",
-  "version": "1.0.0",
+  "description": "Run image, video, audio, and text AI models with one rupiah balance via remote OAuth MCP.",
+  "version": "1.0.1",
   "websiteUrl": "https://getrun.id",
   "repository": {
     "url": "https://github.com/Getcore-ID/getrun-mcp",
@@ -21,7 +21,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://run.getcore.id/mcp"
+      "url": "https://getrun.id/mcp"
     }
   ]
 }
